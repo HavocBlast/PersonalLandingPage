@@ -1,0 +1,48 @@
+/* CSS */
+body {
+  margin:0px;
+}
+main {
+  background-color:#E63946;
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+h1 {
+  margin-bottom:0px;
+  color:#1B212C;
+  font-family: 'Lato', sans-serif;
+  font-size:32px;
+}
+p {
+  margin-top:8px;
+  font-size:20px;
+  color:#5E636B;
+  font-family: Arial, sans-serif;
+}
+p a {
+  margin:0px;
+  color:#5E636B;
+  text-decoration:none;
+}
+.card {
+  width:400px;
+  padding:32px;
+  background-color:#F1FAEE;
+  border-radius:10px;
+  text-align: center;
+  
+  filter: drop-shadow(10px 10px 5px black);
+}
+.profile {
+  width:35%;
+  height:35%;
+  border-radius:9999px;
+}
+.links {
+  
+}
+a {
+  margin: 8px;
+}
