@@ -21,11 +21,7 @@ p {
   color:#5E636B;
   font-family: Arial, sans-serif;
 }
-p a {
-  margin:0px;
-  color:#5E636B;
-  text-decoration:none;
-}
+
 .card {
   width:400px;
   padding:32px;
@@ -40,9 +36,12 @@ p a {
   height:35%;
   border-radius:9999px;
 }
-.links {
-  
-}
-a {
+.links a {
   margin: 8px;
 }
+.links a img {
+  width: 25px;
+  height: 25px;
+}
+
+
