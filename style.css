@@ -3,7 +3,7 @@ body {
   margin:0px;
 }
 main {
-  background-color:#E63946;
+  background-color:#F8AF85;
   height: 100vh;
   display: flex;
   justify-content:center;
@@ -15,10 +15,10 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-size:32px;
 }
-p {
-  margin-top:8px;
+h2 {
+  margin-top:0px;
   font-size:20px;
-  color:#5E636B;
+  color:#E63946;
   font-family: Arial, sans-serif;
 }
 
@@ -29,19 +29,20 @@ p {
   border-radius:10px;
   text-align: center;
   
-  filter: drop-shadow(10px 10px 5px black);
+  filter: drop-shadow(5px 5px 3px black);
 }
 .profile {
   width:35%;
   height:35%;
   border-radius:9999px;
 }
+
 .links a {
   margin: 8px;
 }
 .links a img {
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
 }
 
 
