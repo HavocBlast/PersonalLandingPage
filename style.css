@@ -3,7 +3,7 @@ body {
   margin:0px;
 }
 main {
-  background-color:#F8AF85;
+  background-color: #D9653B;
   height: 100vh;
   display: flex;
   justify-content:center;
@@ -11,30 +11,36 @@ main {
 }
 h1 {
   margin-bottom:0px;
-  color:#1B212C;
+  color:#262626;
   font-family: 'Lato', sans-serif;
   font-size:32px;
 }
 h2 {
   margin-top:0px;
   font-size:20px;
-  color:#E63946;
+  color:#D94625;
   font-family: Arial, sans-serif;
 }
 
 .card {
   width:400px;
   padding:32px;
-  background-color:#F1FAEE;
+  background-color: #D9BDAD;
   border-radius:10px;
   text-align: center;
   
-  filter: drop-shadow(5px 5px 3px black);
+  /* filter: drop-shadow(5px 5px 3px black); */
 }
 .profile {
   width:35%;
   height:35%;
-  border-radius:9999px;
+  border-radius:50%;
+}
+
+.links {
+  display: flexbox;
+  flex-direction: row;
+  align-content: center;
 }
 
 .links a {
@@ -44,5 +50,3 @@ h2 {
   width: 50px;
   height: 50px;
 }
-
-
